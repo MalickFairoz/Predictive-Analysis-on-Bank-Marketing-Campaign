@@ -33,23 +33,23 @@ This part of the analysis is the most important and more time consuming. This ba
 
    <b>1.</b> This first step of the analysis is describing the data to find custim details of the records
 
-<p align="center"><img src="images/1.png"></p>
+<p align="center"><img src="images/1.PNG"></p>
 
    <b>2.</b> When finding for the NULL values there are no such kind of values in the data rather than there were some data filled with value "unknown". This data is also not good for the analysis, so it all those entities are replaced with mode value of the respective columns 
 
    <b>3.</b> To identify the data distribution of every section, the values of the categorical columns and its frequency based on the output varible Term Deposit is displayed on table format for better understanding.
     
-<img src="images/2.png">
+<img src="images/2.PNG">
 
 This below screen shot clearly explains that how these data is been distributed over a varible on the table. In this chart you could see that on the JOB pie chart the majority part of the data contributes to admin, blue-collar and technician and minor contribution is on housemaid profession. Similarly on the Contact pie chart the majority part is with cellular communication than the telephone.
 
-<img src="images/03.png" alt="Drawing" style="width: 1000px"> 
+<img src="images/03.PNG" alt="Drawing" style="width: 1000px"> 
 
 
    <b>4.</b> To indentify the outliers on the data. It has been verified on every numberic column through a custom build method and there are projected in the below image. This bar chart expresses that three column are with high outliers which are between 1500 to 3000 records and two column with minimum outliers which are around 450 records. 
    
    
-<img src="images/4.png" alt="Drawing" style="width: 600px">    
+<img src="images/4.PNG" alt="Drawing" style="width: 600px">    
 
 
 To check the outliers on the two columns AGE and consumer confidence index the below image shows how well it has been distributed and showed the outliers 
@@ -65,7 +65,7 @@ After the removing the outliers from the two columns and removing the entire thr
  <b>5.</b> Then to indentify the correlation of the every column the heat map would help us to indentify the relation more clearly. The blue color boxes has more correlation and red color boxes has les correlation relation among them. 
  
  
-<img src="images/7.png" alt="Drawing" style="width: 600px"> 
+<img src="images/7.PNG" alt="Drawing" style="width: 600px"> 
  
 
  <b>6.</b> On further analysis, we could find that the relation between two columns on data distribution.
@@ -120,7 +120,7 @@ After tuning the model, we have accuracy and area under curve metrics to evaluat
 
 The tunes output of the XGBoost are:
 
-<img src="images/10.png" alt="Drawing" style="width: 700px"> 
+<img src="images/10.PNG" alt="Drawing" style="width: 700px"> 
 <br><br><br>
 
 <h3> Support Vector Machine Algorithm </h3> <br><br>
@@ -141,7 +141,7 @@ Specify the size of the kernel cache. Kernel cache size: For SVC, SVR, nuSVC and
 After tunning the model with these two hyper parameter the output predictive eveluation is descripted in a classification report. This provides four metrics and they are provided below <br>
 
 
-<img src="images/11.png" alt="Drawing" style="width: 700px"> 
+<img src="images/11.PNG" alt="Drawing" style="width: 700px"> 
 <br><br><br>
 
 <h3> Conclution </h3><br><br>
@@ -152,4 +152,4 @@ This projects provides the detailed analysis for evaluating the predictive analy
 
 Dataset Source = https://archive.ics.uci.edu/ml/datasets/bank+marketing
 
-<img src="images/12.png" alt="Drawing" style="width: 700px"> 
+<img src="images/12.PNG" alt="Drawing" style="width: 700px"> 
