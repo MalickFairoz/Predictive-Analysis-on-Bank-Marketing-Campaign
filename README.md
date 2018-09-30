@@ -33,7 +33,7 @@ This part of the analysis is the most important and more time consuming. This ba
 
    <b>1.</b> This first step of the analysis is describing the data to find custim details of the records
 
-<img src="images/1.png">
+<p align="center"><img src="images/1.png"></p>
 
    <b>2.</b> When finding for the NULL values there are no such kind of values in the data rather than there were some data filled with value "unknown". This data is also not good for the analysis, so it all those entities are replaced with mode value of the respective columns 
 
